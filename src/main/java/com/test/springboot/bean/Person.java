@@ -23,19 +23,27 @@ import java.util.Map;
 
 //@PropertySource(value = {"classpath:person.properties"}) //加载指定的配置文件
 
+//@Data
+//public class Person {
+//
+//    //@Value("${person.last-name}") // 可填入字面量/${key}从环境变量、配置文件中获取值/#{spEL}
+//    //@Email
+//    private String lastName;
+////    @Value("#{10*5}")
+//    private Integer age;
+////    @Value("true")
+//    private Boolean boss;
+//    private Date birth;
+//
+//    private Map<String, Object> maps;
+//    private List<Object> lists;
+//    private Dog dog;
+//}
+
 @Data
 public class Person {
-
-    //@Value("${person.last-name}") // 可填入字面量/${key}从环境变量、配置文件中获取值/#{spEL}
-    //@Email
-    private String lastName;
-//    @Value("#{10*5}")
+    private String userName;
     private Integer age;
-//    @Value("true")
-    private Boolean boss;
     private Date birth;
-
-    private Map<String, Object> maps;
-    private List<Object> lists;
-    private Dog dog;
+    private Pet pet;
 }
