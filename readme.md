@@ -9,3 +9,5 @@
 >WebConfig  
 >Pet  
 >Person  
+>ResponseTestController  
+>GuiguMessageConverter  

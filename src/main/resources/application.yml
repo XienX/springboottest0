@@ -16,3 +16,8 @@
 #  dog:
 #    name: 小狗
 #    age: 2
+
+spring:
+  mvc:
+    contentnegotiation:
+      favor-parameter: true #开启请求参数内容协商模式
